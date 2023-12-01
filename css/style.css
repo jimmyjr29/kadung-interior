@@ -172,7 +172,16 @@ a.more {
   .hero .hero-img-wrap img {
     right: 0px;
     left: -100px;
-    overflow-x: hidden;
+  }
+}
+
+/* sdas */
+@media (max-width: 767px) {
+  .hero-img-wrap img.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
   }
 }
 
@@ -199,8 +208,10 @@ a.more {
   background-image: url("../images/dots-light.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  right: -100px;
+  /* right: -100px; */
   top: -0px;
+  /* justify-content: center;
+  align-items: center; */
 }
 @media (min-width: 1200px) {
   .hero .hero-img-wrap:after {
